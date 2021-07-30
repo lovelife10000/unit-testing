@@ -1,4 +1,7 @@
 var glb;
+if (window.byted_acrawler) {
+	window.byted_acrawler = 1;
+}
 (glb = 'undefined' == typeof window ? global : window)._$jsvmprt = function (b, e, f) {
 	function a() {
 		if ('undefined' == typeof Reflect || !Reflect.construct) return !1;
@@ -127,9 +130,9 @@ var glb;
 				} else {
 					if ((A = x) > 14) z = s(b, O), (U = function e() {
 						var f = arguments;
-						var fuck=e.y > 0 ? K(b, e.c, e.l, f, e.z, this, null, 0) : (e.y++, K(b, e.c, e.l, f, e.z, this, null, 0));
-						if(fuck.indexOf('_signature')!==-1){
-							console.log('fuck',fuck);
+						var fuck = e.y > 0 ? K(b, e.c, e.l, f, e.z, this, null, 0) : (e.y++, K(b, e.c, e.l, f, e.z, this, null, 0));
+						if (fuck.indexOf('_signature') !== -1) {
+							console.log('fuck', fuck);
 						}
 						return fuck;
 					}).c = O + 4, U.l = z - 2, U.x = G, U.y = 0, U.z = c, S[R] = U, O += 2 * z - 2; else if (A > 12) q = S[R--], w = S[R--], (A = S[R--]).x === G ? A.y >= 1 ? S[++R] = K(b, A.c, A.l, q, A.z, w, null, 1) : (S[++R] = K(b, A.c, A.l, q, A.z, w, null, 0), A.y++) : S[++R] = A.apply(w, q); else if (A > 5) C = S[R--], S[R] = S[R] != C; else if (A > 3) C = S[R--], S[R] = S[R] * C; else if (A > -1) return [1, S[R--]];
@@ -217,9 +220,9 @@ var glb;
 				if (x >>= 2, A < 1) {
 					if ((A = x) > 14) z = W[O], (U = function e() {
 						var f = arguments;
-						var fuck=e.y > 0 ? K(b, e.c, e.l, f, e.z, this, null, 0) : (e.y++, K(b, e.c, e.l, f, e.z, this, null, 0));
-						if(fuck.indexOf('_signature')!==-1){
-							console.log('fuck',fuck);
+						var fuck = e.y > 0 ? K(b, e.c, e.l, f, e.z, this, null, 0) : (e.y++, K(b, e.c, e.l, f, e.z, this, null, 0));
+						if (fuck.indexOf('_signature') !== -1) {
+							console.log('fuck', fuck);
 						}
 						return fuck;
 					}).c = O + 4, U.l = z - 2, U.x = G, U.y = 0, U.z = c, S[R] = U, O += 2 * z - 2; else if (A > 12) q = S[R--], w = S[R--], (A = S[R--]).x === G ? A.y >= 1 ? S[++R] = K(b, A.c, A.l, q, A.z, w, null, 1) : (S[++R] = K(b, A.c, A.l, q, A.z, w, null, 0), A.y++) : S[++R] = A.apply(w, q); else if (A > 5) C = S[R--], S[R] = S[R] != C; else if (A > 3) C = S[R--], S[R] = S[R] * C; else if (A > -1) return [1, S[R--]];
